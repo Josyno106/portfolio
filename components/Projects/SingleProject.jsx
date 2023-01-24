@@ -22,7 +22,9 @@ const SingleProject = ({
           {title}
         </h3>
         <div className="flex justify-center gap-4 text-red-50 ">
-          {iconList.map((icon) => icon)}
+          {iconList.map((icon, index) => (
+            <div key={index}>{icon}</div>
+          ))}
         </div>
       </div>
 
