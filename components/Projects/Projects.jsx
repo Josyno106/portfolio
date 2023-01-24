@@ -94,14 +94,17 @@ const Projects = () => {
       </p>
       <div className="mt-16 mx-8 xl:mx-[12rem]  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6 lg:mx-[6rem] md:mx-[5rem]">
         {ProjectsData.map((project, index) => (
-          <SingleProject
-            key={project.id}
-            title={project.title}
-            iconList={project.iconList}
-            description={project.description}
-            thumbnail={project.thumbnail}
-            to={project.link}
-          />
+          // <SingleProject
+          //   key={project.id}
+          //   title={project.title}
+          //   iconList={project.iconList}
+          //   description={project.description}
+          //   thumbnail={project.thumbnail}
+          //   to={project.link}
+          // />
+          <div key={project.id}>
+            <p>Test</p>{" "}
+          </div>
         ))}
       </div>
     </div>
