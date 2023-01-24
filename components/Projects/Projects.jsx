@@ -91,7 +91,7 @@ const Projects = () => {
       <div className="mt-16 mx-8 xl:mx-[12rem]  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6 lg:mx-[6rem] md:mx-[5rem]">
         {ProjectsData.map((project, index) => (
           <SingleProject
-            key={index}
+            key={project.link}
             title={project.title}
             iconList={project.iconList}
             description={project.description}
