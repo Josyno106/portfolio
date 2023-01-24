@@ -2,9 +2,19 @@ import { VscArrowSmallRight } from "react-icons/vsc";
 import Link from "next/link";
 import Image from "next/image";
 
-const SingleProject = ({ title, iconList, description, thumbnail, to }) => {
+const SingleProject = ({
+  title,
+  iconList,
+  description,
+  thumbnail,
+  to,
+  key,
+}) => {
   return (
-    <div className=" h-128 bg-custom-gray  relative group overflow-hidden rounded-2xl cursor-pointer">
+    <div
+      className=" h-128 bg-custom-gray  relative group overflow-hidden rounded-2xl cursor-pointer"
+      key={key}
+    >
       <Image src={thumbnail} alt="project image" className=" h-3/5  " />
 
       <div className="bg-custom-gray h-2/5 w-full absolute top-72 p-6">
