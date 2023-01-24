@@ -32,7 +32,7 @@ const Hero = () => {
           href="https://www.linkedin.com/in/joshua-wanjugu-77b08316b/"
           className="underline text-3xl text-custom-green"
         >
-          Let's Chat
+          Let&apos;s Chat
         </Link>
       </div>
       <div className="bg-custom-dark-bg-2 bg-opacity-40 mt-16 lg:grid lg:grid-cols-4 gap-3  ">
