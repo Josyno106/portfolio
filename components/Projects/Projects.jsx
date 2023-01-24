@@ -22,6 +22,7 @@ const Projects = () => {
 
   const ProjectsData = [
     {
+      id: 1,
       title: "Fullstack Chat Web App",
       iconList: [
         <FaReact className="text-3xl animate-customspin text-blue-400" />,
@@ -35,6 +36,7 @@ const Projects = () => {
       link: "https://github.com/Josyno106",
     },
     {
+      id: 2,
       title: "Fullstack Chat Web App",
       iconList: [
         <FaReact className="text-3xl animate-customspin text-blue-400" />,
@@ -48,6 +50,7 @@ const Projects = () => {
       link: "https://github.com/Josyno106",
     },
     {
+      id: 3,
       title: "Fullstack Chat Web App",
       iconList: [
         <FaReact className="text-3xl animate-customspin text-blue-400" />,
@@ -61,6 +64,7 @@ const Projects = () => {
       link: "https://github.com/Josyno106",
     },
     {
+      id: 4,
       title: "Fullstack Chat Web App",
       iconList: [
         <FaReact className="text-3xl animate-customspin text-blue-400" />,
@@ -91,7 +95,7 @@ const Projects = () => {
       <div className="mt-16 mx-8 xl:mx-[12rem]  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6 lg:mx-[6rem] md:mx-[5rem]">
         {ProjectsData.map((project, index) => (
           <SingleProject
-            key={project.link}
+            key={project.id}
             title={project.title}
             iconList={project.iconList}
             description={project.description}
