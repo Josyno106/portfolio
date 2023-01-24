@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Hero from "../components/Hero/Hero";
-import HeroSection from "../components/Hero/Herosection";
+// import HeroSection from "../components/Hero/Herosection";
 import Introduction from "../components/Introduction/Introduction";
 // import Projects from "../components/Projects/Projects";
 import styles from "../styles/Home.module.css";
