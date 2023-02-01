@@ -102,7 +102,7 @@ const Projs = () => {
           //   thumbnail={project.thumbnail}
           //   to={project.link}
           // />
-          <div key={project.id}>
+          <div key={`${project.id}+${index}`}>
             <p>Test</p>{" "}
           </div>
         ))}
