@@ -38,6 +38,7 @@ const Navbar = () => {
             <li
               key={index}
               className="hover:text-custom-green hover:border-b-2 hover:border-custom-green border-b-2 border-transparent cursor-pointer text-white"
+              passHref
             >
               {item.label}
             </li>
