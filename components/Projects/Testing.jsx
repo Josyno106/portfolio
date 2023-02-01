@@ -14,11 +14,6 @@ const Testing = () => {
     {
       id: 1,
       title: "Fullstack Chat Web App",
-      iconList: [
-        <FaReact className="text-3xl animate-customspin text-blue-400" />,
-        <SiFirebase className="text-3xl text-yellow-300  " />,
-        <SiTailwindcss className="text-3xl text-blue-400  " />,
-      ],
 
       description: `Chate is a fullstack real-time web chat app. I combined the power of Firebase Firestore real-time 
       capabilities to bring the app to life.`,
@@ -28,11 +23,6 @@ const Testing = () => {
     {
       id: 2,
       title: "Fullstack Chat Web App",
-      iconList: [
-        <FaReact className="text-3xl animate-customspin text-blue-400" />,
-        <SiFirebase className="text-3xl text-yellow-300  " />,
-        <SiTailwindcss className="text-3xl text-blue-400  " />,
-      ],
 
       description: `Chate is a fullstack real-time web chat app. I combined the power of Firebase Firestore real-time 
       capabilities to bring the app to life.`,
@@ -42,11 +32,6 @@ const Testing = () => {
     {
       id: 3,
       title: "Fullstack Chat Web App",
-      iconList: [
-        <FaReact className="text-3xl animate-customspin text-blue-400" />,
-        <SiFirebase className="text-3xl text-yellow-300  " />,
-        <SiTailwindcss className="text-3xl text-blue-400  " />,
-      ],
 
       description: `Chate is a fullstack real-time web chat app. I combined the power of Firebase Firestore real-time 
       capabilities to bring the app to life.`,
@@ -56,11 +41,6 @@ const Testing = () => {
     {
       id: 4,
       title: "Fullstack Chat Web App",
-      iconList: [
-        <FaReact className="text-3xl animate-customspin text-blue-400" />,
-        <SiFirebase className="text-3xl text-yellow-300  " />,
-        <SiTailwindcss className="text-3xl text-blue-400  " />,
-      ],
 
       description: `Chate is a fullstack real-time web chat app. I combined the power of Firebase Firestore real-time 
       capabilities to bring the app to life.`,
