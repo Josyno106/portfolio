@@ -11,19 +11,19 @@ const Navbar = () => {
   const menu = [
     {
       label: "About me ",
-      to: "#",
+      to: "/",
     },
     {
       label: "Services ",
-      to: "#",
+      to: "/",
     },
     {
       label: "Works",
-      to: "#",
+      to: "/",
     },
     {
       label: "Courses",
-      to: "#",
+      to: "/",
     },
   ];
   //bg-custom-default-bg
@@ -38,7 +38,6 @@ const Navbar = () => {
             <li
               key={index}
               className="hover:text-custom-green hover:border-b-2 hover:border-custom-green border-b-2 border-transparent cursor-pointer text-white"
-              passHref
             >
               {item.label}
             </li>
