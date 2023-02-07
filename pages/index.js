@@ -17,7 +17,7 @@ export default function Home() {
       <Hero />
       <div className=" "></div>
       <Introduction />
-      {/* <Projects />   */}
+      <Projects />
     </>
   );
 }

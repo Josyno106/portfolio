@@ -14,12 +14,6 @@ import Link from "next/link";
 import SingleProject from "./SingleProject";
 import { useState } from "react";
 const Projects = () => {
-  //   const iconsList = [
-  //     <FaReact className="text-3xl animate-customspin text-blue-400" />,
-  //     <SiFirebase className="text-3xl text-yellow-300  " />,
-  //     <SiTailwindcss className="text-3xl text-blue-400  " />,
-  //   ];
-
   const [projectsData, setProjectsData] = useState([
     {
       id: 1,
@@ -94,20 +88,14 @@ const Projects = () => {
       </p>
       <div className="mt-16 mx-8 xl:mx-[12rem]  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6 lg:mx-[6rem] md:mx-[5rem]">
         {projectsData.map((project, i) => (
-          // <SingleProject
-          //   key={project.id}
-          //   title={project.title}
-          //   iconList={project.iconList}
-          //   description={project.description}
-          //   thumbnail={project.thumbnail}
-          //   to={project.link}
-          // />
-          <div key={project.id + i}>
-            <p>Test</p>{" "}
-            {project.iconList.map((icon, index) => (
-              <span key={index}>{icon}</span>
-            ))}
-          </div>
+          <SingleProject
+            key={project.id}
+            title={project.title}
+            iconList={project.iconList}
+            description={project.description}
+            thumbnail={project.thumbnail}
+            to={project.link}
+          />
         ))}
       </div>
     </div>
