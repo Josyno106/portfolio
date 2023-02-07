@@ -12,6 +12,7 @@ import { VscArrowSmallRight } from "react-icons/vsc";
 import thumbnail from "../../assets/thumbnail.png";
 import Link from "next/link";
 import SingleProject from "./SingleProject";
+import { useState } from "react";
 const Projects = () => {
   //   const iconsList = [
   //     <FaReact className="text-3xl animate-customspin text-blue-400" />,
@@ -19,7 +20,7 @@ const Projects = () => {
   //     <SiTailwindcss className="text-3xl text-blue-400  " />,
   //   ];
 
-  const ProjectsData = [
+  const [projectsData, setProjectsData] = useState([
     {
       id: 1,
       title: "Fullstack Chat Web App",
@@ -76,7 +77,7 @@ const Projects = () => {
       thumbnail: thumbnail,
       link: "https://github.com/Josyno106",
     },
-  ];
+  ]);
 
   return (
     <div className="text-white py-20 xl:px-60 text-center lg:px-14  ">
