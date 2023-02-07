@@ -92,8 +92,8 @@ const Projects = () => {
         <span className="text-custom-green mr-3">Fork</span>
         them on Github.
       </p>
-      {/* <div className="mt-16 mx-8 xl:mx-[12rem]  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6 lg:mx-[6rem] md:mx-[5rem]">
-        {ProjectsData.map((project, index) => (
+      <div className="mt-16 mx-8 xl:mx-[12rem]  grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 gap-6 lg:mx-[6rem] md:mx-[5rem]">
+        {projectsData.map((project, i) => (
           // <SingleProject
           //   key={project.id}
           //   title={project.title}
@@ -102,11 +102,14 @@ const Projects = () => {
           //   thumbnail={project.thumbnail}
           //   to={project.link}
           // />
-          <div key={project.id}>
+          <div key={project.id + i}>
             <p>Test</p>{" "}
+            {project.iconList.map((icon, index) => (
+              <span key={index}>{icon}</span>
+            ))}
           </div>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };
