@@ -13,11 +13,11 @@ import thumbnail from "../../assets/thumbnail.png";
 import Link from "next/link";
 import SingleProject from "./SingleProject";
 const Projects = () => {
-  //   const iconsList = [
-  //     <FaReact className="text-3xl animate-customspin text-blue-400" />,
-  //     <SiFirebase className="text-3xl text-yellow-300  " />,
-  //     <SiTailwindcss className="text-3xl text-blue-400  " />,
-  //   ];
+  const iconsList = [
+    <FaReact className="text-3xl animate-customspin text-blue-400" />,
+    <SiFirebase className="text-3xl text-yellow-300  " />,
+    <SiTailwindcss className="text-3xl text-blue-400  " />,
+  ];
 
   //   const ProjectsData = [
   //     {
