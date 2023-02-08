@@ -39,7 +39,7 @@ const Introduction = () => {
   const [currentItem, setCurrentItem] = useState(descriptions[0]);
   return (
     <>
-      <div className=" bg-custom-dark-bg-3 mt-24  flex px-60 lg:px-14 xl:px-60">
+      <div className=" bg-custom-dark-bg-3 mt-24 sm:hidden  flex px-60 lg:px-14 xl:px-60">
         <div className="w-1/3 pt-16 flex flex-col gap-2 mb-24">
           {/* this holds the left menu */}
 
