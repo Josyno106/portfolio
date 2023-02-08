@@ -37,9 +37,10 @@ const Introduction = () => {
   ];
 
   const [currentItem, setCurrentItem] = useState(descriptions[0]);
+
   return (
     <>
-      <div className=" bg-custom-dark-bg-3 mt-24 sm:hidden  flex px-60 lg:px-14 xl:px-60">
+      <div className="bg-custom-dark-bg-3 mt-24 md:flex lg:flex xl:flex px-60 lg:px-14 xl:px-60 hidden">
         <div className="w-1/3 pt-16 flex flex-col gap-2 mb-24">
           {/* this holds the left menu */}
 
@@ -88,7 +89,7 @@ const Introduction = () => {
         </div>
         <div className="ml-32 w-2/5">
           {/* this is where various descriptions go */}
-          <h3 className="text-custom-green text-3xl font-bold pt-16 pb-6 ">
+          <h3 className="text-custom-green text-3xl font-bold pt-16 pb-6   ">
             {currentItem.emoji} {currentItem.title}
           </h3>
           <p className="text-gray-400 font-robotomono text-xl">
@@ -99,7 +100,7 @@ const Introduction = () => {
 
       {/* show this smaller part of introduction on the smaller screens */}
 
-      <div className="bg-custom-dark-bg-3 px-8 py-16 md:hidden lg:hidden xl:hidden">
+      <div className="bg-custom-dark-bg-3 px-4 py-16 md:hidden lg:hidden xl:hidden">
         {/* this is where various descriptions go */}
         <h3 className="text-custom-green text-3xl font-bold  pb-6 ">
           {currentItem.emoji} {currentItem.title}

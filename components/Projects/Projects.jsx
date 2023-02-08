@@ -75,7 +75,7 @@ const Projects = () => {
 
   return (
     <div className="text-white py-20 xl:px-60 text-center lg:px-14  ">
-      <h2 className="lg:text-7xl xg:text-8xl font-black mb-12 text-5xl ">
+      <h2 className=" lg:text-7xl xg:text-8xl font-black mb-12 text-5xl ">
         Comprehensive <span className="text-custom-green">Real-World </span>
         Applications
       </h2>
