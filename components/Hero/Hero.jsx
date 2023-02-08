@@ -18,7 +18,7 @@ const Hero = () => {
         <button className="p-2 rounded-sm bg-custom-green font-black w-48">
           Full-Stack Developer
         </button>
-        <h2 className="text-white text-6xl xl:text-8xl lg:text-7xl font-extrabold">
+        <h2 className="text-white text-7xl xl:text-8xl lg:text-7xl font-extrabold">
           Talk is Cheap.
           <br /> Look at the code
         </h2>
